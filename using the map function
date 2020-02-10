@@ -1,0 +1,12 @@
+void setup() {
+size(640, 360);
+noStroke();
+}
+void draw() {
+background(0);
+float c1 = map(mouseX, 0, width, 0.25*width, 0.75*width);
+float c2 =  map(mouseY, 0, height, 0.25*height, 0.75*height);
+fill(c1);
+ellipse(c1, c2, 50, 50);
+
+}
