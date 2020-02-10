@@ -1,0 +1,39 @@
+int x=200;
+int y=500;
+void setup(){
+size(500,500);
+}
+void draw(){
+background(0);
+x=x-5;
+y=y-5;
+translate(x, y);
+rotate(-PI/6); 
+fill(255,0,0);
+ellipse(250,100,50,50);
+rectMode(CENTER);
+fill(50,205,50);
+rect(250,185,75,115);
+strokeWeight(20);
+strokeCap(ROUND);
+line(220,200,280,200);
+strokeWeight(2);
+strokeJoin(BEVEL);
+fill(255,215,0);
+triangle(250,160,260,150,240,150);
+strokeWeight(10);
+strokeJoin(BEVEL);
+rectMode(CENTER);
+fill(255,255,255);
+rect(250,200,20,20);
+textAlign(CENTER);
+strokeWeight(10);
+stroke(0,0,255);
+fill(0,0,255);
+line(200,140,185+random(15),190+random(15));
+line(300,140,315+random(15),190+random(15));
+line(215+random(15),253+random(15),210+random(15),293+random(15));
+line(287+random(15),253+random(15),292+random(15),293+random(15));
+fill(255,255,255);
+
+}
