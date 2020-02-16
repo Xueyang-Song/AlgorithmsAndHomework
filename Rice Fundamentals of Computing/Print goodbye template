@@ -1,0 +1,61 @@
+Looking for Python 3? Try py3.codeskulptor.org!
+
+Run (Accesskey R)
+ 
+Save (Accesskey S)
+ 
+Download
+ 
+Fresh URL
+ 
+Open Local
+ 
+Reset (Accesskey X)
+CodeSkulptor
+Docs
+ 
+Demos
+ 
+Viz Mode
+"goodbye"
+# Printing "Goodbye" with a local message variable
+​
+###################################################
+# Student should enter function on the next lines.
+​
+def print_goodbye():
+    message="goodbye"
+    print "goodbye"
+    return message
+​
+###################################################
+# Tests
+​
+message = "Hello"
+print message
+print_goodbye()
+print message
+​
+message = "Ciao"
+print message
+print_goodbye()
+print message
+​
+​
+###################################################
+# Output
+​
+#Hello
+#Goodbye
+#Hello
+#Ciao
+#Goodbye
+#Ciao
+
+Hello
+goodbye
+Hello
+Ciao
+goodbye
+Ciao
+CodeSkulptor was built by Scott Rixner and is based upon CodeMirror and Skulpt.
