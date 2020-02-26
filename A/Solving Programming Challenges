@@ -1,0 +1,73 @@
+What will you typically need to implement yourself in the programming assignments if you program in C++, Java or Python?
+
+
+Reading input, writing output and the solution to the problem.
+
+
+Just the solution of the problem.
+
+
+Just writing the output.
+
+
+Just reading the input.
+
+Correct
+We will provide starter files for C++, Java and Python. In most cases, these will contain the implementation of reading the input and writing the output, and you will only need to implement the correct solution to the problem.
+
+1/1 分
+
+2.第 2 个问题
+Your program in C, C++ or Java thinks that the product of numbers 5000050000 and 5000050000 is equal to -1794967296−1794967296. What is the most probable reason?
+
+
+Integer overflow.
+
+
+The input data is incorrect.
+
+
+The problem statement is wrong.
+
+
+Compiler error.
+
+Correct
+Right!
+
+1/1 分
+
+3.第 3 个问题
+Which tests should you perform before submitting a solution to the programming assignment?
+
+
+Just check that the answers for the examples from the problem statement are correct.
+
+
+Just submit the program and see if it passes the assignment.
+
+
+Test on the examples from the problem statement. Then make a few other small tests, solve them manually and check that your program outputs the correct answer. Generate a big input and launch your program to check that it works fast enough and doesn't consume too much memory. Test for corner cases: smallest allowed values and largest allowed values of all input parameters, equal numbers in the input, very long strings, etc. Then make a stress test. After all these tests passed, submit the solution.
+
+
+Test on the examples from the problem statement. Then make a few other small tests, solve them manually and check that your program outputs the correct answer. After all these tests passed, submit the solution.
+
+Correct
+Bingo!
+
+1/1 分
+
+4.第 4 个问题
+Where does the input data come from when you implement a stress test?
+
+
+You download and use the tests we've prepared to check your solution to the problem.
+
+
+You enter the input data manually.
+
+
+You generate valid input data as a part of the stress test implementation.
+
+Correct
+Right!
