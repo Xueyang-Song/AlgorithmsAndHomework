@@ -1,0 +1,11 @@
+Big-O Notation: Plots
+The purpose of this notebook is to visualize the order of growth of some functions used frequently in the algorithm analysis. Note that this is an interactive notebook meaning that besides of just running all the code below you may also fool around with it. Try to plug in you favorite functions and/or change the ranges below and see what happens. Proceed by repeatedly clicking the Run button. To start over, select Kernel -> Restart and Clear Output.
+
+Definitions
+We start by reminding the definitions. Consider two functions  f(n)  and  g(n)  that are defined for all positive integers and take on non-negative real values. (Some frequently used functions used in algorithm design:  logn ,  n⎯⎯√ ,  nlogn ,  n3 ,  2n ). We say that  f  grows slower than  g  and write  f≺g , if  f(n)g(n)  goes to 0 as  n  grows. We say that  f  grows no faster than  g  and write  f⪯g , if there exists a constant  c  such that  f(n)≤c⋅g(n)  for all  n .
+
+Three important remarks.
+
+f≺g  is the same as  f=o(g)  (small-o) and  f⪯g  is the same as  f=O(g)  (big-O). In this notebook, we've decided to stick to the  ⪯  notation, since many learners find this notation more intuitive. One source of confusion is the following: many learners are confused by the statement like " 5n2=O(n3) ". When seeing such a statement, they claim: "But this is wrong! In fact,  5n2=O(n2) !" At the same time, both these statements are true:  5n2=O(n3)  and also  5n2=O(n2) . They both just say that  5n2  grows no faster than both  n2  and  n3 . In fact,  5n2  grows no faster than  n2  and grows slower than  n3 . In  ⪯  notation, this is expressed as follows:  5n2⪯n2  and  5n2⪯n3 . This resembles comparing integers: if  x=2 , then both statements  x≤2  and  x≤3  are correct.
+Note that if  f≺g , then also  f⪯g . In plain English: if  f  grows slower than  g , then  f  certainly grows no faster than  g .
+Note that we need to use a fancy  ⪯  symbol instead of the standard less-or-equal sign  ≤ , since the latter one is typically used as follows:  f≤g  if  f(n)≤g(n)  for all  n . Hence, for example,  5n2≰n2 , but  5n2⪯n2 .
