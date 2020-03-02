@@ -1,0 +1,127 @@
+Coursera
+探索
+您想学习什么？
+
+0
+Skip to Main Content
+
+Algorithmic Toolbox
+第 4 周
+Sorting
+上一个
+下一个
+
+Introduction
+
+Polynomial Multiplication
+
+Master Theorem
+
+Sorting Problem
+视频: 课程视频Problem Overview
+2 min
+视频: 课程视频Selection Sort
+8 min
+视频: 课程视频Merge Sort
+10 min
+视频: 课程视频Lower Bound for Comparison Based Sorting
+12 min
+视频: 课程视频Non-Comparison Based Sorting Algorithms
+7 min
+阅读材料: Resources
+5 min
+练习测验: Sorting
+4 个问题
+
+Quick Sort
+
+Programming Assignment 4
+练习测验 • 15 MIN
+Sorting
+提交您的作业
+收到成绩
+通过条件75% 或更高
+成绩
+100%
+我们会保留您的最高分数
+
+
+
+Sorting
+练习测验 • 15 min
+恭喜！您通过了！
+通过条件 75% 或更高
+成绩
+100%
+Sorting
+总分：{TOTALPOINTS}
+
+1.第 1 个问题
+What is the running time of selecting the minimum element on each iteration of the selection sort?
+
+
+O(\log n)O(logn)
+
+
+O(n)O(n)
+
+
+O(n^2)O(n 
+2
+ )
+
+
+O(1)O(1)
+
+Correct
+Selecting the minimum of O(n)O(n) elements is O(n)O(n).
+
+1/1 分
+
+2.第 2 个问题
+Can we use the merging procedure from the lectures to merge the arrays [1, 3, 2, 5, 4] and [5, 6, 7, 8, 9] in order to receive a sorted array?
+
+
+No
+
+
+Yes
+
+Correct
+Both arrays must be sorted prior to merging.
+
+1/1 分
+
+3.第 3 个问题
+How many operations are needed to merge two sorted arrays of sizes mm and nn respectively?
+
+
+O(nm)O(nm)
+
+
+O(1)O(1)
+
+
+O(m \log n)O(mlogn)
+
+
+O(n + m)O(n+m)
+
+Correct
+Merge works in O(n + m)O(n+m).
+
+1/1 分
+
+4.第 4 个问题
+Can you use Count Sort to sort an array of positive real numbers which are less than 100, such as [0.572, 0.25, 2.34, 3.14159, 2.781828, 42], in O(n)O(n) time?
+
+
+Yes, because the numbers are bounded
+
+
+No
+
+Correct
+Although the numbers in the array are bounded, Count Sort is not applicable, because it can only be applied to integer numbers: real numbers cannot play the role of indices of an array.
+
+1/1 分
